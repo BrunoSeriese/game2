@@ -48,16 +48,16 @@ $(document).keydown(function()
 });
 
 
+$("h1").click(function()
 
-$(document).click(function()
 {
   if(gameStart==false)
 
   {nextSequence();
   gameStart = true;
-
-  }
+ }
 });
+
 
 
 
